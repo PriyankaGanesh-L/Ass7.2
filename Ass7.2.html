@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Arguments Sum</title>
+    <script type="text/javascript">
+        function CalculatesSum() {
+            var s = 0;
+            for (var i = 0; i < arguments.length; i++) {
+                s = s + arguments[i];
+               
+            };
+            return s;
+
+        };
+
+        console.log("Sum of 10,20,30,40 is " , CalculatesSum(10, 20, 30, 40));
+        console.log("Sum of 10,20,30,40,50 is ", CalculatesSum(10, 20, 30, 40, 50));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
